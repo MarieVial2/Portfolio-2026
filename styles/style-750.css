@@ -172,19 +172,7 @@ h3 {
     margin-left: 10px;
 }
 
-#bloc-autres i {
-    font-size: 15px;
-}
 
-#bloc-autres h3 {
-    font-size: 20px;
-    padding: 0;
-    margin: 0;
-    width: 200px;
-    padding-bottom: 20px;
-    padding-left: 70px;
-
-}
 
 h5 {
     font-size: 1rem;
@@ -230,6 +218,8 @@ header h2 {
     padding: 20px;
 }
 
+
+
 .content-realisation-item-mobile {
     display: flex;
     flex-direction: column;
@@ -247,6 +237,10 @@ header h2 {
     flex-direction: column;
 }
 
+.cacher {
+    display : none;
+}
+
 /* COMPETENCES */
 
 #bloc-competences {
@@ -257,7 +251,21 @@ header h2 {
 
 #bloc-competences h3 {
     padding-bottom: 20px;
+    margin-top: 100px;
 }
+
+#bloc-autres i {
+    font-size: 15px;
+}
+
+#bloc-autres h3 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    
+}
+
 
 #competences {
     padding: 20px;

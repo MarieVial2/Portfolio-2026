@@ -191,6 +191,7 @@ header {
 
 #presentation-photo {
     display: flex;
+    height : 100%;
     justify-content: center;
     align-items: center;
 }
@@ -579,7 +580,7 @@ strong {
 }
 
 .card-front-bagad,
-.card-front-portfolio, .card-front-factures {
+.card-front-portfolio, .card-front-factures, .card-front-tailleur {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -593,7 +594,7 @@ strong {
 
 
 .card-back-bagad,
-.card-back-portfolio, .card-back-factures {
+.card-back-portfolio, .card-back-factures, .card-back-tailleur {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -605,17 +606,14 @@ strong {
 
 .card-front-bagad {
     background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/site-bagad.jpg);
-    /* background-image: url(../images/site-bagad4.jpg); */
     background-position: center;
     background-size: cover;
-    /* filter: saturate(25%) brightness(80%); */
+
 
 }
 
 .card-front-portfolio {
     background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/portfolio.jpg);
-
-    /* background-image: url(../images/portfolio4.jpg); */
     background-position: center;
     background-size: cover;
 
@@ -624,6 +622,12 @@ strong {
 
 .card-front-factures {
     background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/factures.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card-front-tailleur {
+background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/tailleur.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -643,15 +647,17 @@ strong {
 
 .card-front-bagad h6,
 .card-front-portfolio h6,
-.card-front-factures h6 {
+.card-front-factures h6,
+.card-front-tailleur h6
+{
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 25px;
-    /* font-weight: bold; */
+    
     text-align: center;
 }
 
-.deuxieme {
-    margin-top: 20px;
+.deuxieme-rangee {
+    margin-top: 30px;
 }
 
 .content-realisation-item {
@@ -758,6 +764,7 @@ strong {
 #bloc-autres ul {
     list-style-type: none;
 }
+
 
 
 
