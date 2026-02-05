@@ -40,7 +40,7 @@ body {
 h3 {
     text-align: center;
     font-family: "Quicksand";
-    font-size: 35px;
+    font-size: 2.19rem;
     padding: 15px;
 }
 
@@ -69,13 +69,13 @@ nav {
 
 h1 {
     font-family: "Itim";
-    font-size: 40px;
+    font-size: 2.50rem;
     text-align: center;
 }
 
 nav h2 {
     font-family: "Quicksand";
-    font-size: 25px;
+    font-size: 1.56rem;
     text-align: center;
 }
 
@@ -98,7 +98,7 @@ nav h2 {
 #nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size:  1.25rem;
     transition: all 1s;
 }
 
@@ -116,7 +116,7 @@ nav h2 {
 }
 
 #logo i {
-    font-size: 40px;
+    font-size:  2.50remx;
     color: rgb(34, 34, 34);
 }
 
@@ -198,7 +198,7 @@ header {
 #encart-presentation {
     background-color: rgba(255, 245, 208, 0.192);
     border-radius: 2px;
-    padding: 100px 20px 100px 20px;
+    padding: 80px 20px 100px 20px;
     box-shadow: 5px 5px 20px rgb(231, 231, 231);
     margin: 100px 0;
 }
@@ -230,7 +230,7 @@ header {
 }
 
 #presentation-texte {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -266,7 +266,7 @@ strong {
 }
 
 .example-header p {
-    font-size: 12px;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
@@ -289,7 +289,7 @@ strong {
 
 .example-title p {
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 1rem;
     max-width: 400px;
 }
 
@@ -323,7 +323,7 @@ strong {
 
 /*----- TIMELINE INFO -----*/
 .timeline-info {
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 700;
     letter-spacing: 3px;
     margin: 0 0 0.5em 0;
@@ -662,7 +662,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 .card-front-tailleur h6
 {
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 1.56rem;
     
     text-align: center;
 }
@@ -687,7 +687,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 }
 
 .content-realisation-item i {
-    font-size: 30px;
+    font-size: 1.88rem;
     margin: 10px;
     transition: all 1s;
 }
@@ -737,7 +737,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 }
 
 #bloc-technologies i {
-    font-size: 70px;
+    font-size: 4.38rem;
     transition: all 1s;
 }
 
@@ -761,7 +761,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 }
 
 #bloc-autres i {
-    font-size: 25px;
+    font-size: 1.56rem;
 }
 
 #bloc-autres ul {
@@ -872,7 +872,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
     color: #dfdfdf;
     width: 190px;
     display: block;
-    font-size: 13px;
+    font-size: 0.75rem;
     padding: 5px 10px;
     border-radius: 3px;
     text-align: center;
@@ -936,7 +936,7 @@ a:hover .tooltip {
 footer {
     background-color: rgb(34, 34, 34);
     color: white;
-    height: 200px;
+    height: 240px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -948,7 +948,7 @@ footer a {
 }
 
 footer a i {
-    font-size: 30px;
+    font-size: 1.88rem;
     margin: 0 15px;
 }
 
@@ -965,7 +965,7 @@ footer a:hover {
 
 #copyrights p {
     text-align: center;
-    font-size: 11px;
+    font-size: 0.69rem;
 }
 
 #header {
@@ -980,6 +980,14 @@ footer a:hover {
 #header a {
     color: white;
     text-decoration: none;
+}
+
+#telecharger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top : 15px;
+    margin-bottom: 20px;
 }
 
 #conteneur {
