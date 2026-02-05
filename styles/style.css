@@ -11,6 +11,30 @@ body {
 
 }
 
+/* Bouton de retour en haut de page */
+
+#up {
+    background-color: rgba(255, 255, 255, 0.2);
+    width : 50px;
+    height : 50px;
+    border-radius: 50%;
+    border : 1px solid rgb(34, 34, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 1;
+    position : sticky;
+    left: 50%;
+    bottom : 20px;
+    margin-right : 50px;
+    transition: opacity 0.3s ease;
+}
+
+#up i {
+    color : rgb(34, 34, 34);
+}
+
 /* PARAMETRES GLOBAUX */
 
 h3 {
@@ -18,7 +42,6 @@ h3 {
     font-family: "Quicksand";
     font-size: 35px;
     padding: 15px;
-    /* border-bottom: 1px solid rgb(34, 34, 34); */
 }
 
 .i-left {
@@ -117,7 +140,7 @@ header {
 
 
 
-/* ANIMATION de la partie parcours */
+/* ANIMATION de la partie parcours (code issu de CodePen) */
 
 .animate-on-scroll {
     /* Définit une opacité initiale de 0 pour les éléments */
@@ -270,11 +293,7 @@ strong {
     max-width: 400px;
 }
 
-/*==================================
-      TIMELINE
-  ==================================*/
-/*-- GENERAL STYLES
-      ------------------------------*/
+/*Style de la partie Parcours (Code issu de CodePen) */
 .timeline {
     line-height: 1.4em;
     list-style: none;
@@ -401,10 +420,8 @@ strong {
     margin: 0;
 }
 
-/*----------------------------------------------
-          MOD: TIMELINE SPLIT
-      ----------------------------------------------*/
-@media (min-width: 768px) {
+
+@media (min-width: 750px) {
 
     .timeline-split .timeline,
     .timeline-centered .timeline {
@@ -450,9 +467,6 @@ strong {
     }
 }
 
-/*----------------------------------------------
-          MOD: TIMELINE CENTERED
-      ----------------------------------------------*/
 @media (min-width: 992px) {
 
     .timeline-centered,
@@ -527,9 +541,6 @@ strong {
     }
 }
 
-/*----------------------------------------------
-          MOD: MARKER OUTLINE
-      ----------------------------------------------*/
 .marker-outline .timeline-marker:before {
     background: transparent;
     border-color: rgb(34, 34, 34);
@@ -706,10 +717,8 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 /* COMPETENCES */
 
 #competences {
-    /* background-color: rgba(255, 245, 208, 0.482); */
     padding: 110px 70px;
     margin: 150px 0;
-    /* margin: 60px 0; */
 }
 
 #competences h3 {
@@ -718,7 +727,6 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 
 #bloc-competences {
     padding-left: 30px;
-    /* border-left: 1px solid rgb(34, 34, 34); */
 }
 
 #bloc-technologies {
@@ -745,11 +753,6 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 }
 
 
-/* @media (max-width: 720px) {
-    #bloc-competences h3 {
-        margin-top: 100px;
-    }
-} */
 
 #bloc-autres {
     margin-top: 100px;
@@ -770,6 +773,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 
 /* COMPETENCES */
 
+/* Design hexagone : code issu de CodePen */
 /* Hexagones compétences */
 .body {
     background-color: #ffffff;
