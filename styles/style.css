@@ -253,6 +253,10 @@ strong {
     font-weight: bold;
 }
 
+#boutons-presentation {
+    display : flex;
+    gap : 10px;
+}
 /* PARCOURS */
 
 #parcours {

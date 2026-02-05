@@ -36,7 +36,32 @@ window.addEventListener("scroll", () => {
   scroll = setTimeout(() => {
     bouton.style.opacity = "0";
   }, 2000);
+})
+
+
+
+// Menu burger
+const menuToggle = document.getElementById('menuToggle');
+const burger = document.getElementById('burger');
+const menuLien = document.querySelectorAll('#menu a');
+
+
+burger.addEventListener('click', (e) => {
+  e.stopPropagation();
+  menuToggle.classList.toggle('active');
 });
+
+
+menuLien.forEach(lien => {
+  lien.addEventListener('click', () => {
+    menuToggle.classList.remove('active');
+  });
+});
+
+document.addEventListener('click', () => {
+  menuToggle.classList.remove('active');
+});
+
 
 
 
