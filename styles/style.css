@@ -6,7 +6,6 @@ body {
     color: rgb(34, 34, 34);
     font-family: "Montserrat";
     margin: 0;
-    /* Adjusts the hexagon size */
     --hex-height: 150px;
 
 }
@@ -54,6 +53,15 @@ h3 {
     rotate: 270deg;
     margin-left: 15px;
     color: rgb(34, 34, 34);
+}
+
+/* Mes images sont dans des div, des img avec ceci les rendra accessibles aux personnes en situation de handicap */
+.image-accessibilite {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
 }
 
 /* BARRE DE NAV */
@@ -119,6 +127,8 @@ nav h2 {
     font-size:  2.50remx;
     color: rgb(34, 34, 34);
 }
+
+
 
 
 /* HEADER */
@@ -591,7 +601,7 @@ strong {
 }
 
 .card-front-bagad,
-.card-front-portfolio, .card-front-factures, .card-front-tailleur {
+.card-front-portfolio, .card-front-factures, .card-front-tailleur, .card-front-the {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -605,7 +615,7 @@ strong {
 
 
 .card-back-bagad,
-.card-back-portfolio, .card-back-factures, .card-back-tailleur {
+.card-back-portfolio, .card-back-factures, .card-back-tailleur,  .card-back-the{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -643,6 +653,12 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
     background-size: cover;
 }
 
+.card-front-the {
+    background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/the.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .card-front-encart {
     height: 100px;
     width: 200px;
@@ -659,7 +675,8 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 .card-front-bagad h6,
 .card-front-portfolio h6,
 .card-front-factures h6,
-.card-front-tailleur h6
+.card-front-tailleur h6,
+.card-front-the h6
 {
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 1.56rem;
@@ -667,9 +684,6 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
     text-align: center;
 }
 
-.deuxieme-rangee {
-    margin-top: 30px;
-}
 
 .content-realisation-item {
     height: 400px;
@@ -696,6 +710,15 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
     color: rgb(152, 152, 152);
     transform: scale(1.15);
 }
+
+.deuxieme-rangee {
+    margin-top: 30px;
+}
+
+.troisieme-rangee {
+    margin-top: 30px;
+}
+
 
 #paragraphe-realisations {
     text-align: center;
