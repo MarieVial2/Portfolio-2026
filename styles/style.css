@@ -588,9 +588,6 @@ strong {
     margin-bottom: 30px;
 }
 
-.blog h6{
-    text-align: center;
-}
 
 
 .card-container {
@@ -616,7 +613,7 @@ strong {
 }
 
 .card-front-bagad,
-.card-front-portfolio, .card-front-factures, .card-front-blog, .card-front-the {
+.card-front-portfolio,.card-front-portfolioIA, .card-front-factures, .card-front-blog, .card-front-the {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -630,7 +627,7 @@ strong {
 
 
 .card-back-bagad,
-.card-back-portfolio, .card-back-factures, .card-back-blog,  .card-back-the{
+.card-back-portfolio,.card-back-portfolioIA, .card-back-factures, .card-back-blog,  .card-back-the{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -650,6 +647,14 @@ strong {
 
 .card-front-portfolio {
     background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/portfolio.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.card-front-portfolioIA {
+    background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/portfoliov2.jpg);
     background-position: center;
     background-size: cover;
 
@@ -689,12 +694,20 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 
 .card-front-bagad h6,
 .card-front-portfolio h6,
+.card-front-portfolioIA h6,
 .card-front-factures h6,
-.card-front-tailleur h6,
 .card-front-the h6
+
 {
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     font-size: 1.56rem;
+    
+    text-align: center;
+}
+
+.card-front-blog h6{
+    font-family: "Quicksand", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
     
     text-align: center;
 }
@@ -711,9 +724,7 @@ background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), u
 
 }
 
-.content-realisation-item-mobile {
-    display: none;
-}
+
 
 .content-realisation-item i {
     font-size: 1.88rem;
@@ -965,9 +976,6 @@ a:hover .tooltip {
     transform: scale(1);
 }
 
-.container-competences-mobile {
-    display: none;
-}
 
 /* FOOTER */
 
