@@ -204,7 +204,9 @@ header {
 
 
 
-
+.container-competences-mobile {
+    display: none;
+}
 
 
 
@@ -602,6 +604,10 @@ strong {
 
 .card-container:hover .card {
     transform: rotateY(180deg);
+}
+
+.content-realisation-item-mobile {
+    display: none;
 }
 
 .card {

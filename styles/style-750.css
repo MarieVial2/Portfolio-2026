@@ -153,6 +153,9 @@ header h2 {
 
 /* REALISATIONS */
 
+.content-realisation-item-mobile p {
+    font-size: 0.813rem;
+}
 
 
 .card-container {
@@ -173,6 +176,18 @@ header h2 {
 }
 
 
+
+.content-realisation-item-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 0.938rem;
+}
+
+.content-realisation-item-mobile i {
+    font-size: 1.563rem;
+    margin: 5px;
+}
 
 .content-realisation-item {
     height: 400px;
@@ -226,6 +241,24 @@ header h2 {
     display: none;
 }
 
+.container-competences-mobile {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+}
+
+@media (min-width: 300px) and (max-width: 750px) {
+    .container-competences-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
 
 
 .square-competence {
