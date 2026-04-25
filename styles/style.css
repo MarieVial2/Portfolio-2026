@@ -588,6 +588,10 @@ strong {
     margin-bottom: 30px;
 }
 
+.blog h6{
+    text-align: center;
+}
+
 
 .card-container {
     position: relative;
@@ -595,7 +599,7 @@ strong {
     justify-content: center;
     height: 400px;
     width: 300px;
-    border: 1px solid rgb(34, 34, 34);
+    /* border: 1px solid rgb(34, 34, 34); */
 
 }
 
@@ -612,7 +616,7 @@ strong {
 }
 
 .card-front-bagad,
-.card-front-portfolio, .card-front-factures, .card-front-tailleur, .card-front-the {
+.card-front-portfolio, .card-front-factures, .card-front-blog, .card-front-the {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -626,7 +630,7 @@ strong {
 
 
 .card-back-bagad,
-.card-back-portfolio, .card-back-factures, .card-back-tailleur,  .card-back-the{
+.card-back-portfolio, .card-back-factures, .card-back-blog,  .card-back-the{
     position: absolute;
     height: 100%;
     width: 100%;
@@ -658,8 +662,8 @@ strong {
     background-size: cover;
 }
 
-.card-front-tailleur {
-background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/tailleur.jpg);
+.card-front-blog {
+background: linear-gradient(rgba(46, 46, 46, 0.598), rgba(39, 39, 39, 0.628)), url(../images/blog.jpg);
     background-position: center;
     background-size: cover;
 }
