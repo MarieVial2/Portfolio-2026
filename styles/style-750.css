@@ -202,8 +202,12 @@ header h2 {
     transform: rotateY(0deg);
 }
 
-.tailleur {
-    padding-right : 23px;
+#realisations h3 i {
+    margin : 0;
+}
+
+#realisations h3 {
+    font-size: 1.1rem;
 }
 
 /* COMPETENCES */
