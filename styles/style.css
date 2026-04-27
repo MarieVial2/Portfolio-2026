@@ -686,7 +686,10 @@ strong {
         url(../images/portfoliov2.jpg);
     background-position: center;
     background-size: cover;
+    
 }
+
+
 
 .card-front-factures {
     background:
@@ -777,9 +780,11 @@ strong {
     font-size: 1.56rem;
 }
 
-.card-front-blog h6 {
+.card-front-blog h6,.card-front-portfolioIA h6 {
     font-size: 1.3rem;
 }
+
+
 
 
 
