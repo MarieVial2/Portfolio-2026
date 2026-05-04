@@ -236,6 +236,12 @@ header {
     align-items: center;
 }
 
+#presentation-texte {
+    background-color: white;
+    border-radius: 18px;
+    padding : 30px;
+}
+
 #photo-marie {
     background-image: url(../images/PhotoMarie.jpg);
     background-size: cover;
@@ -586,6 +592,12 @@ strong {
     margin: 100px 0;
 }
 
+#container-real {
+    background-color: white;
+    border-radius: 18px;
+    padding-bottom : 30px;
+}
+
 #realisations h3 {
     margin-bottom: 30px;
 }
@@ -621,13 +633,13 @@ strong {
 .card-front-portfolioIA,
 .card-front-factures,
 .card-front-blog,
-.card-front-the,
+.card-front-smartnotes,
 .card-back-bagad,
 .card-back-portfolio,
 .card-back-portfolioIA,
 .card-back-factures,
 .card-back-blog,
-.card-back-the {
+.card-back-smartnotes {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -640,7 +652,7 @@ strong {
 .card-front-portfolioIA,
 .card-front-factures,
 .card-front-blog,
-.card-front-the {
+.card-front-smartnotes {
     backface-visibility: hidden;
     display: flex;
     justify-content: center;
@@ -654,7 +666,7 @@ strong {
 .card-back-portfolioIA,
 .card-back-factures,
 .card-back-blog,
-.card-back-the {
+.card-back-smartnotes {
     color: #1f1b16;
     backface-visibility: hidden;
     transform: rotateY(-180deg);
@@ -708,10 +720,9 @@ strong {
     background-size: cover;
 }
 
-.card-front-the {
+.card-front-smartnotes {
     background:
-        linear-gradient(rgba(73, 87, 42, 0.58), rgba(35, 46, 18, 0.78)),
-        url(../images/the.jpg);
+        linear-gradient(rgba(73, 87, 42, 0.58), rgba(35, 46, 18, 0.78));
     background-position: center;
     background-size: cover;
 
@@ -738,7 +749,7 @@ strong {
     background: linear-gradient(145deg, #fff0f4, #f1d4de);
 }
 
-.card-back-the {
+.card-back-smartnotes {
     background: linear-gradient(145deg, #f8f7df, #dfe5b6);
 }
 
@@ -764,7 +775,7 @@ strong {
 .card-front-portfolio h6,
 .card-front-portfolioIA h6,
 .card-front-factures h6,
-.card-front-the h6,
+.card-front-smartnotes h6,
 .card-front-blog h6 {
     font-family: "Quicksand", Arial, Helvetica, sans-serif;
     text-align: center;
@@ -776,11 +787,11 @@ strong {
 .card-front-portfolio h6,
 .card-front-portfolioIA h6,
 .card-front-factures h6,
-.card-front-the h6 {
+.card-front-smartnotes h6 {
     font-size: 1.56rem;
 }
 
-.card-front-blog h6,.card-front-portfolioIA h6 {
+.card-front-blog h6,.card-front-portfolioIA h6, .card-front-smartnotes h6 {
     font-size: 1.3rem;
 }
 
