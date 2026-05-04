@@ -842,19 +842,33 @@ strong {
 
 
 #paragraphe-realisations {
-    text-align: center;
+    
     margin-top: 20px;
 
 
 }
 
+#paragraphe-realisations h4 {
+    text-align: center;
+}
+
+#paragraphe-realisations ul {
+    margin-left : 100px;
+    margin-top : 20px
+}
+
 #paragraphe-realisations li {
     margin-top : 10px;
-    list-style-type: none;
+    
 }
 
 #paragraphe-realisations a {
     margin: 20px;
+    
+    
+}
+#paragraphe-realisations p {
+    text-align: center;
 }
 
 
